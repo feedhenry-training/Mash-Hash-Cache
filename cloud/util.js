@@ -41,6 +41,8 @@ function doMashUp() {
 }
 
 function createHash(str) {
+  // var hash = $fh.hash({'algorithm':'MD5', 'text':str});
+  // return hash.hashvalue;
   var hash = MD5(str);
   return hash;
 }
